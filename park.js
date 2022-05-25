@@ -104,7 +104,7 @@ export class ParkingArea {
       console.log(`\nTotal fee for Parking: P ${totalFee}\n`);
 
       Object.assign(this.theParkingLot[row][col], {
-        occupied: false,
+        withVehicle: false,
         carSize: null,
         start: null,
       });
